@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/etDialogName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ФИО клиента"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etDialogAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Возраст (от 14 до 99)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etDialogPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Телефон (11 цифр)"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/etDialogMonths"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Срок (месяцев: 1–36)"
+        android:inputType="number" />
+
+</LinearLayout>
