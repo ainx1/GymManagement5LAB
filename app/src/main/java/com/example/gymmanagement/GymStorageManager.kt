@@ -6,7 +6,7 @@ import android.os.Environment
 import android.provider.MediaStore
 import java.io.*
 // S4 - CSV файл в App-specific storage
-//	S5 - CSV файл в Shared storage
+// S5 - CSV файл в Shared storage
 // S10 - Бинарный файл в App-specific storage
 class GymStorageManager(private val context: Context) {
 
