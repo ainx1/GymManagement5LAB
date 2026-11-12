@@ -1,5 +1,6 @@
 package com.example.gymmanagement
 
+import java.io.Serializable
 data class GymMember(
     val fullName: String,
     val age: Int,
@@ -11,7 +12,7 @@ data class GymMember(
 
     val trainer: String = "Не назначен",
     val branch: String = "Не выбран"
-)
+) : Serializable
 
 sealed class RegistrationResult {
     data class Success(val member: GymMember, val formattedCard: String) : RegistrationResult()
