@@ -105,8 +105,6 @@ class GymStorageManager(private val context: Context) {
         return if (binaryBackupFile.exists()) binaryBackupFile.delete() else false
     }
 
-    fun hasBinaryBackup(): Boolean = binaryBackupFile.exists()
-
     // S5: CSV-файл в общем хранилище (Shared storage -> папка Downloads)
     private val sharedFileName = "gym_shared_export.csv"
 
